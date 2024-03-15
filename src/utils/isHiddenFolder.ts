@@ -5,7 +5,7 @@ const isHiddenFolder = (driveItem: any) => {
   }
 
   // Check if the folder name exactly matches the hidden folder name
-  if (!driveItem.file && /^(Apps)$/i.test(driveItem.name)) {
+  if (!driveItem.file && /^(Apps|OneDriveXbot)$/i.test(driveItem.name)) {
     return true;
   }
 
