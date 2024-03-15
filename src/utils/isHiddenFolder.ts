@@ -3,7 +3,7 @@ const isHiddenFolder = (driveItem: any) => {
     const rgx = new RegExp(pattern, "i");
 
     // Check if the file name exactly matches any of the predefined names
-    if (driveItem.file && /(.password.png|readme.md)/i.test(driveItem.name)) {
+    if (driveItem.file && /(.password)/i.test(driveItem.name)) {
       return true;
     }
 
