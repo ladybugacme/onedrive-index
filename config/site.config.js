@@ -38,7 +38,7 @@ module.exports = {
   links: [
     {
       name: 'Instagram',
-      link: 'https://instagram.com/raihanite',
+      link: 'https://instagram.com/raihanize',
     },
   ],
 
