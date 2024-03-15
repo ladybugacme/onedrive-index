@@ -37,7 +37,7 @@ module.exports = {
   // In the latest update, all brand icons inside font awesome is supported and the icon to render is based on the name you provide. See the documentation for details.
   links: [
     {
-      name: 'Home',
+      name: 'home',
       link: 'https://raihan.me',
     },
   ],
